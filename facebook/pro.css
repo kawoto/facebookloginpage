@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: SFPRODisplay-Regular, Helvetica,Arial,sans-serif;
+}
+
+.facebook-logo{
+	font-size: 55px;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-left: 20px;
+	color: #1877f2;
+}
+.facebook-status{
+	font-size: 28px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: white;
+}
+
+.main-left{
+	width: 580px;
+	display: block;
+}
+
+.main-right input[type=email]{
+ width: 100%;
+ padding: 9px;
+ margin-top: 10px;
+ font-size: 17px;
+ border: none;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+.main-right input[type=password]{
+ width: 100%;
+ padding: 9px;
+ font-size: 17px;
+  margin-top: 10px;
+ border: none;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+.main-right button{
+ width: 100%;
+ padding: 9px;
+ font-size: 17px;
+ border: none;
+ margin-top: 10px;
+ background-color: #1877f2;
+ color: white;
+ border-radius: 8px;
+ cursor: pointer;
+}
+.main-right-link{
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.main-right-link a{
+	font-size: 17px;
+	text-decoration: none;
+	color: #1877f2;
+}
+.create-account{
+ width: 100%;
+ padding: 9px;
+ margin-top: 10px;
+ margin-left: 75px;
+ font-size: 15px;
+ border: none;
+ background-color: #42b72a;
+ color: white;
+ border-radius: 9px;
+ cursor: pointer;
+ position: relative;
+}
+
+.login{
+	width: 400px;
+	height: 300px;
+	margin-top:100px ;
+	margin: auto;
+	padding: 20px;
+	background-color:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgb( 0, 0, 0,1), 0 8px 16px rgb(0, 0, 0,1);
+}
+
+.main{
+	width: 1300px;
+	margin: auto;
+	height: 650px;
+	display: flex;
+	position: absolute;
+	top: 0px;
+}
+
+.facebook{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+    transform: translate(-50%,-50%);
+    left: 10%;
+    top: 10px;
+}
+
+.container {
+	top: 0;
+	left: 0;
+	bottom: 100px;
+    right: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 600px;
+	max-height: 500px;
+	margin: auto;
+    height:500px;
+    margin-top: 100px;
+    background-color: white;
+    position: fixed;
+    padding: 20px;
+    background-clip:padding-box ;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+    0 8px 16px rgba(0,0,0,0.1); 
+    transition: opacity 500ms;
+}
+.create-account{
+  font-size: 1em;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.create-account:hover {
+  background: #06D85F;
+}
+
+
+.header {
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.facebook-status{
+	font-size: 28px;
+	margin-top: 10px;
+	color: black;
+}
+
+.form {
+	padding: 20px;
+	top: 0px;	
+	max-width: 100%;
+	margin: auto;
+    height:500px;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+ .form-control {
+	padding-bottom: 20px;
+	position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: inline;
+	font-family: inherit;
+	font-size: 14px;
+	width: 460px;
+}
+#name{
+	width: 575px;
+	margin-top: 20px;
+
+}
+.form-control input[type=text]{
+    
+    width: 48%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.form-control input[type=email]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.form-control input[type=password]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+ .form-control.error input {
+	border-color: #e74c3c;
+}
+
+
+#form1 button{ 
+	align-items: center;
+	background-color: #32cd32;
+	margin-top: 10px;
+	width: 35%;
+	padding: 10px;
+	margin-left: 130px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+ .modal-gender-alert{
+    
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: grey;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+}
+ .modal-gender-choice{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+}
+ .modal-gender-name{
+     border: 1px solid #ccc;
+     padding-right: 40px;
+     padding-bottom: 10px;
+     padding-top:10px;
+     margin-right: 20px;
+     padding-left: 10px;
+     border-radius: 5px;
+     font-size: 17px;
+     display: flex;
+     float: left;
+     text-align: center;
+     align-items: center;
+}
+ .modal-date-birth{
+   width: 100%;
+   margin-top: 0px;
+   display: block;
+   align-items: center;
+}
+ .modal-date-alert{
+	width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: grey;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+}
+ .modal-date-selection{
+    
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+ .modal-date-birth label{
+	font-size: 12px;
+}
+ .modal-gender label{
+	font-size: 12px;
+}
+ .modal-gender{
+    
+   width: 100%;
+   margin-top: 0px;
+   display: block;
+   align-items: center; 
+}
+
+ .select-choice{
+    
+    width: 33%;
+    
+}
+ .select-choice select{
+    width: 96%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    color: #080808;
+}
+#female{
+	margin-left: 10px;
+}
+ #male{
+	margin-left: 10px;
+}
+ #custom{
+
+	margin-left: 10px;
+}
+.modal-signup-terms{
+    width: 100%;
+    margin-top: 5px; 
+    font-size: 12px;
+}
+ .popup {
+  margin:auto;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+ .popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+@media screen and (max-width: 700px){
+  .main-right-create{
+    width: 100%;
+  }
+  .popup{
+    width: 100%;
+  }
+}
